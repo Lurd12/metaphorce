@@ -12,7 +12,6 @@ public class GestorPelicula {
         this.peliculas = peliculas;
 
     }
-
     public void agregarPelicula(Pelicula pelicula){
         peliculas.putIfAbsent(pelicula.getId(), pelicula);
     }

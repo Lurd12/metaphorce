@@ -17,7 +17,7 @@ public class Pelicula {
                 "id=" + id +
                 ", nombre='" + nombre + '\'' +
                 ", disponible=" + disponible +
-                '}';
+                "} \n";
     }
 
     public int getId() {
