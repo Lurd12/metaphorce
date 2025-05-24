@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         //Configuration
         GestorPelicula gestorPelicula = new GestorPelicula(new HashMap<Integer, Pelicula>());
+        System.out.println("Featured added");
 
         //Agregar peliculas
         gestorPelicula.agregarPelicula(new Pelicula(1, "Pokemon", false));
